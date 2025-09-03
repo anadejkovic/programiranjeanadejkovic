@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="algoritam za mnozenje 2 broja"/>
+        <attribute name="authors" value="PC-03"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-03 10:23:01 AM"/>
+        <attribute name="created" value="UEMtMDM7REVTS1RPUC1JRzJSMDZBOzIwMjUtMDktMDM7MTA6MTk6NTMgQU07MjU4Ng=="/>
+        <attribute name="edited" value="UEMtMDM7REVTS1RPUC1JRzJSMDZBOzIwMjUtMDktMDM7MTA6MjM6MDEgQU07MTsyNjgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a*b"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

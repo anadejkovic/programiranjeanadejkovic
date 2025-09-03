@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="mina i ana"/>
+        <attribute name="authors" value="PC-03"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-03 02:46:20 po podne"/>
+        <attribute name="created" value="UEMtMDM7REVTS1RPUC1JRzJSMDZBOzIwMjUtMDktMDM7MDI6MzI6NDAgcG8gcG9kbmU7MzIyNQ=="/>
+        <attribute name="edited" value="UEMtMDM7REVTS1RPUC1JRzJSMDZBOzIwMjUtMDktMDM7MDI6NDY6MjAgcG8gcG9kbmU7MTszMzM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="DO" type="Integer" array="False" size=""/>
+            <input variable="d"/>
+            <input variable="s"/>
+            <input variable="r"/>
+            <assign variable="a" expression="2*r+d"/>
+            <assign variable="b" expression="2*r+s"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="DO" expression="2*(a+b)"/>
+            <output expression="DO" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
