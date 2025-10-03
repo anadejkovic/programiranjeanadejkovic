@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main()
+{
+    int s,v1,v2,t;//deklalaracija promenljivih
+    printf("Unesite duzinu staze u metrima:\n");
+    scanf("%d",&s);//unos duzine staze
+    printf("Unesite brzinu v1");
+    scanf("%d",&v1);//unos brzine trkaca 1
+    printf("Unesite brzinu v2");
+        scanf("%d",&v2);//unos brzine trkaca 2 
+        t=s/(v2-v1);//racunanje vremena trkaca 
+        printf("Trkac 1 ce prestici drugog za");
+        printf("%d",t);
+    return 0;
+}
