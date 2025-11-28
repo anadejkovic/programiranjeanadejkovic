@@ -19,4 +19,4 @@ int main()
         printf("reciprocna vrednost broja %d je %.4lf",x,rv);
     }
     return 0;
-}           
+}    
